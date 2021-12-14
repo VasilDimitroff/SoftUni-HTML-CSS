@@ -1,0 +1,22 @@
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    outline: none;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 2px;  
+}
+
+
+p:nth-child(1) > a:nth-child(1) {
+    background: green;
+}
+
+p:nth-child(2) > a:nth-child(1) {
+    background: orange;
+}
