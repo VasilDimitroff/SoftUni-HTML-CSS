@@ -1,0 +1,23 @@
+body {
+    width: 100%;
+    background: lightgrey;
+    margin: auto auto;
+   
+}
+
+.gallery {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+
+.gallery li {
+    width: 33%;
+    display: inline-block;
+}
+
+.gallery li img{
+    width: 300px;
+    border: 0.4rem solid black;
+}
