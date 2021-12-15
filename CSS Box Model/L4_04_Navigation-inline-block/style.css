@@ -1,0 +1,17 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+li, h1, nav{
+    display: inline-block;
+}
+
+nav {
+    margin-left: 60px;
+}
+
+li a {
+    text-decoration: none;
+    color: lightgreen;
+    padding: 0px 15px;
+}
