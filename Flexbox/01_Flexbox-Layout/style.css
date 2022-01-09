@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header, footer, main, aside { 
+    box-shadow: 1px 1px 11px 0px #b7b4b4;
+    border-radius: 5px;
+}
+
+header {
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 120px;
+    margin: 20px 20px;
+}
+
+footer {
+    flex-basis: 100%;
+    flex-grow: 1;
+    margin: 20px 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 70px;
+}
+
+main {
+    flex-grow: 3;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 300px;
+}
+
+aside {
+    flex-grow: 1;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 300px;
+}
