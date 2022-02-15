@@ -1,0 +1,192 @@
+@import url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css');
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    width: 70%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;   
+   align-items: center;
+}
+
+.titles {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.subtitle {
+    font-size: 9px;
+    color: gray;
+}
+
+.site-name::after{
+    content: '|';
+    margin: 0px 7px;
+    color: gray;
+    width: 1px;
+}
+
+.main-nav {
+    display: flex;
+    margin-right: 20px;;
+}
+
+.main-nav li {
+    list-style: none;
+    margin-left: 3px;
+    max-width: 150px;
+    background-color: #ECECEC;
+    padding: 15px;
+
+}
+
+.main-nav li:first-child {
+    background-color: #D94C21;
+    
+}
+.active {
+    color: white;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #21215A;
+    font-size: 12px;
+}
+
+.banner-container {
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+}
+.banner-info {
+    position: absolute;
+    top: -90px;
+    background-color: #D94C21;
+    color: #F2C9BA;
+    text-align: center;
+    padding: 30px 150px;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.banner-link {
+    color:#F2C9BA;
+}
+
+.benefits-section {
+    display: flex;
+    padding-top: 130px;
+    padding-bottom: 60px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #383838;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+i {
+    background-color: #D94C21; 
+    padding: 20px 20px;
+    font-size: 45px;
+}
+.info-text, .service-description {
+    color: #6D6B68;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+hr {
+    width: 90%;
+    height: 1px;
+    border: 0 none;
+    margin-top: 20px;
+    margin-bottom:20px;
+    background-color:#6D6B68;
+}
+
+.middle-section {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.middle-section-title {
+    font-size: 25px;
+    color: #545454;
+    margin-bottom: 0px;
+    font-weight: 200;
+}
+
+.middle-section-description {
+    color: #A09FB1;
+    margin-top: 0px;
+    font-size: 17px;
+    font-weight: 100;
+ 
+}
+
+.middle-section-button {
+    width: 16%;
+    margin: auto;
+    background-color: #379771;
+    border: none;
+    color: white;
+    padding: 12px 10px;
+    letter-spacing:0.1rem;
+    font-weight: bold;
+    font-size: 10px;
+}
+.services {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #383838;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.service-title {
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #379771;
+    color: #6AB599;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+    padding: 40px 200px;
+    letter-spacing: 0.1em;
+}
+
+.bold {
+    color: #9DD3C5;
+}
