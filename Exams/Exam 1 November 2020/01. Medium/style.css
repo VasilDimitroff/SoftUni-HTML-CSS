@@ -30,7 +30,6 @@ main {
     margin: auto;
 }
 
-
 section {
     display: flex;
     align-items: flex-end;
@@ -43,7 +42,6 @@ article {
 
 span {
     background-color: #CEFDE9;
-
 }
 
 .first-article {

@@ -1,0 +1,39 @@
+@media all and (max-width: 600px) {
+
+    html {
+        max-width: 600px;
+    }
+    .banner {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    * {
+        max-width: 600px;
+    }
+
+    .actions{
+        display: inline-block;
+        padding: 0px 0px;
+    }
+
+    a.special {
+       max-width:25em;
+       box-sizing: border-box;
+       margin-left: 0;
+   }
+    .banner h2{
+        width: 90%;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .feature {
+        width: 100%;
+    }
+
+}
